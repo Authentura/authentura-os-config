@@ -1,0 +1,20 @@
+include: gnome-desktop-pkgs.yaml
+ref: fedora/35/${basearch}/silverblue
+rojig:
+  name: authenturaos-workstation
+  summary: "Authentura OS base image"
+  license: MIT
+packages:
+  - fedora-release-silverblue
+  - desktop-backgrounds-gnome
+  - gnome-shell-extension-background-logo
+  - pinentry-gnome3
+  - qgnomeplatform
+  - evince-thumbnailer
+  - evince-previewer
+  - totem-video-thumbnailer
+  - virt-manager
+
+repos:
+  - fedora-35
+  - fedora-35-updates
