@@ -1,5 +1,5 @@
 include: gnome-desktop-pkgs.yaml
-ref: fedora/35/${basearch}/silverblue
+ref: authentura/35/${basearch}/latest-workstation
 rojig:
   name: authenturaos-workstation
   summary: "Authentura OS base image"
